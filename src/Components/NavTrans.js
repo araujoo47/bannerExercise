@@ -40,6 +40,13 @@ const NavTrans = props => {
         >
           Exercises
         </Link>
+
+        <Link
+          className={props.name === "/bannerExercise" ? "choosenOne" : null}
+          to="/bannerExercise"
+        >
+          Banner Exercise
+        </Link>
       </div>
     </Fragment>
   );

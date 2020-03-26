@@ -1,14 +1,14 @@
-import React, {Component, Fragment} from "react";
-import {hot} from "react-hot-loader";
-import "./Styles/App.less"
-import Router from './Components/Router';
+import React, { Component, Fragment } from "react";
+import { hot } from "react-hot-loader";
+import "./Styles/App.less";
+import Router from "./Components/Router.jsx";
 
-class App extends Component{
-  render(){
-    return(
-    <Fragment>
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
         <Router />
-    </Fragment>
+      </Fragment>
     );
   }
 }
